@@ -217,7 +217,7 @@ var app = new Vue({
 			return `${this[this.current].amount} t${this[this.current].symbol}`;
 		},
 		baseURL: function () {
-			return app.symbol == "BTC" ? "https://mempool.space" : "https://testnet.litecore.io"
+			return app.symbol == "BTC" ? "https://mempool.space/testnet" : "https://testnet.litecore.io"
 		},
 		color: function () {
 			return this[this.current].color;
